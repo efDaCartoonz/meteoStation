@@ -1,0 +1,7 @@
+lg - логин, ps - пароль
+http://[IP]/setting2.htm?R1=RELE1&T1=5&lg=admin&ps=12345678Qaz - настройка импульса срабатывания реле: R[N] - имя пеле, T[N] - время импульса
+http://[IP]/setting.htm?DG=192.168.0.1&IP=192.168.0.100&MS=255.255.255.0&lg=admin&ps=12345678Qaz - сетевые настройки: IP - новый IP адрес, DG - шлюз, MS - маска подсети
+http://[IP]/index.htm?lg=admin&ps=12345678Qaz&PP01=PULS - отправить импульс на включение реле: PP[NN]=PULS - импульс на реле NN
+http://[IP]/index.htm?lg=admin&ps=12345678Qaz&PR01=OFF - отправить отключение реле: PP[NN]=PULS - отключить реле NN
+http://[IP]/benuks.htm?lg=admin&ps=12345678Qaz - получить статус всего
+http://[IP]/index.htm?lg=admin&ps=12345678Qaz&lG=admin&pS=9071693a&LG=admin&PS=9071693a - замена пароля с "12345678Qaz" на "9071693a"
